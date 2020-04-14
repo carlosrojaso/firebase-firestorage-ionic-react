@@ -1,0 +1,8 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "firebase-firestorage-ionic-react",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {}
+}
