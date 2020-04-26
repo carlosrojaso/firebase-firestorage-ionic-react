@@ -30,7 +30,6 @@ const Home: React.FC = () => {
     db.collection('items').get().then((snapshot) => {
       let tmpList: any = [];
       snapshot.forEach((doc) => {
-          console.log(`${doc.id} => ${doc.data()}`);
           tmpList.push({
             id: doc.id,
             description: doc.data().description
